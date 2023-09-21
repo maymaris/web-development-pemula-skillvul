@@ -1,0 +1,141 @@
+/* Reset CSS untuk menghilangkan margin dan padding default */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling elemen-elemen umum */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Styling navbar */
+nav {
+    background-color: #333; /* Warna latar belakang navbar */
+    color: white; /* Warna teks */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Hover effect pada link */
+.nav-links a:hover {
+    border-bottom: 2px solid white; /* Garis bawah ketika dihover */
+    padding-bottom: 2px;
+}
+
+/* Styling paragraf description */
+#description {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+}
+
+/* Styling gambar */
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styling tautan */
+#link {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    text-decoration: none;
+    color: #007bff; /* Warna tautan */
+}
+
+/* Styling form */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff; /* Warna tombol */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Warna tombol saat dihover */
+}
+
+#warning {
+    color: red;
+    text-align: center;
+}
+/* Style untuk footer */
+footer {
+    background-color: #333; /* Warna latar belakang footer */
+    color: #fff; /* Warna teks di dalam footer */
+    padding: 20px; /* Ruang di sekitar konten footer */
+}
+
+/* Mengatur tampilan konten dalam footer */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Dalam file style.css */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
